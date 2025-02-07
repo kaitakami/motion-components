@@ -25,6 +25,16 @@ export const metadata: Metadata = {
       { url: "https://motion-components.vercel.app/og.png" },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Motion Components",
+    description: "Beautiful motion components for your React applications",
+    images: ["https://motion-components.vercel.app/og.png"],
+  },
+  other: {
+    "whatsapp-catalog-message": "Beautiful motion components for your React applications",
+    "whatsapp-catalog-image": "https://motion-components.vercel.app/og.png"
+  }
 };
 
 export default function RootLayout({
