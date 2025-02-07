@@ -74,7 +74,7 @@ export function SidebarWrapper() {
                           className: "h-4 w-4 opacity-70",
                           weight: "regular"
                         })}
-                        <span>{component.title}</span>
+                        <span className="text-nowrap">{component.title}</span>
                         <div className="relative ml-auto">
                           <div className="h-2 w-2 rounded-full bg-orange-500" />
                           <div className="absolute inset-0 rounded-full bg-orange-500/50 animate-ping" />

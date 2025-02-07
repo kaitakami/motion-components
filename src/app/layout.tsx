@@ -37,7 +37,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="h-screen flex bg-white dark:bg-black relative">
           <SidebarWrapper />
-          <main className="flex-1 overflow-auto bg-gray-50 dark:bg-neutral-900 flex flex-col">
+          <main className="flex-1 overflow-auto bg-gray-50 dark:bg-neutral-900 flex flex-col pt-16 md:pt-0">
             {children}
             <footer className="mt-auto py-4 px-8 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-neutral-800">
               Not affiliated with the Motion team
