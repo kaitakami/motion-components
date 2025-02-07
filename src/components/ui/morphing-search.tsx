@@ -109,7 +109,7 @@ export function MorphingSearch({
                       "w-full bg-transparent outline-none truncate",
                       "text-neutral-900 dark:text-neutral-100",
                       "placeholder:text-neutral-400 dark:placeholder:text-neutral-500",
-                      "text-[15px]"
+                      "text-[16px]"
                     )}
                   />
                 </div>
