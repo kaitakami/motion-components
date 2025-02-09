@@ -2,7 +2,7 @@ interface Component {
   title: string;
   description: string;
   href?: string;
-  iconName: "Book" | "CirclesFour" | "Sidebar" | "MagnifyingGlass" | "Plus" | "DotsSixVertical" | "Target" | "Cards";
+  iconName: "Book" | "CirclesFour" | "Sidebar" | "MagnifyingGlass" | "Plus" | "DotsSixVertical" | "Target" | "Cards" | "Command";
   comingSoon?: boolean;
 }
 
@@ -18,6 +18,12 @@ export const components: Component[] = [
     description: "A command menu with smooth animations and elegant interactions. Perfect for actions, settings, or navigation menus.",
     iconName: "CirclesFour",
     href: "/components/command-menu",
+  },
+  {
+    title: "Global Command Menu",
+    description: "A modern command menu with categories, search, and keyboard navigation. Perfect for global actions and quick access.",
+    iconName: "Command",
+    href: "/components/global-command-menu",
   },
   {
     title: "Peekable Sidebar",

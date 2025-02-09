@@ -58,7 +58,7 @@ export default function Home() {
                 inactiveZone={0.01}
               />
               {component.comingSoon ? (
-                <div className="relative flex flex-col gap-2 rounded-lg p-4 bg-white dark:bg-neutral-900">
+                <div className="relative z-10 flex flex-col gap-2 rounded-lg p-4 bg-white dark:bg-neutral-900">
                   <div className="flex items-center justify-between">
                     <h2 className="text-base font-medium text-gray-900 dark:text-white">
                       {component.title}
@@ -74,7 +74,7 @@ export default function Home() {
               ) : (
                 <Link 
                   href={component.href || "#"}
-                  className="relative flex flex-col gap-2 rounded-lg p-4 bg-white dark:bg-neutral-900"
+                  className="relative z-10 flex flex-col gap-2 rounded-lg p-4 bg-white dark:bg-neutral-900"
                 >
                   <div className="flex items-center justify-between">
                     <h2 className="text-base font-medium text-gray-900 dark:text-white">
